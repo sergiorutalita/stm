@@ -2,4 +2,3 @@
 framework:
     mailer:
         dsn: 'stormailer://localhost:2525'
-
