@@ -1,5 +1,5 @@
 {
-    "name": "app/stormailer-bundle",
+    "name": "sergiorutalita/stormailer-bundle",
     "type": "symfony-bundle",
     "description": "A custom mailer transport bundle for Symfony",
     "keywords": ["mailer", "transport", "symfony", "bundle"],
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\StormailerBundle\\": "src/StormailerBundle/"
+            "sergiorutalita\\StormailerBundle\\": "src/StormailerBundle/"
         }
     },
     "extra": {
