@@ -16,7 +16,11 @@
     },
     "extra": {
         "symfony": {
-            "config": "config/packages/mypackage.yaml"
+            "config": {
+                "resources": [
+                    "config/packages/*"
+                ]
+            }
         }
     }
 }
