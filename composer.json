@@ -19,11 +19,6 @@
         "psr-4": {
             "sergiorutalita\\StormailerBundle\\": "src/StormailerBundle/"
         }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-main": "1.0-dev"
-        }
     }
 }
 
