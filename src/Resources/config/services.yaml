@@ -1,9 +1,17 @@
 # src/StormailerBundle/Resources/config/services.yaml
 services:
-    App\StormailerBundle\Mailer\Transport\StormailerTransportFactory:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: true
+        
+    Sergiorutalita\Stm\:
+        resource: '../src/*'
+        exclude: '../src/{DependencyInjection,Entity,Migrations,Tests,Kernel.php}'
+    
+    StormailerTransportFactory:
         arguments:
             $host: '%stormailer.host%'
             $port: '%stormailer.port%'
         tags:
             - { name: 'mailer.transport_factory' }
-
