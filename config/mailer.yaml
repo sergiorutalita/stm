@@ -1,0 +1,5 @@
+# config/packages/mailer.yaml
+framework:
+    mailer:
+        dsn: 'stormailer://localhost:2525'
+
