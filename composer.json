@@ -1,0 +1,29 @@
+{
+    "name": "app/stormailer-bundle",
+    "type": "symfony-bundle",
+    "description": "A custom mailer transport bundle for Symfony",
+    "keywords": ["mailer", "transport", "symfony", "bundle"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergio Rutalita",
+            "email": "srutalita@test.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "symfony/framework-bundle": "^6.4",
+        "symfony/mailer": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\StormailerBundle\\": "src/StormailerBundle/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0-dev"
+        }
+    }
+}
+
