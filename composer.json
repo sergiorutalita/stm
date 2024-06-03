@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "sergiorutalita\\StormailerBundle\\": "src/StormailerBundle/"
+            "sergiorutalita\\StormailerBundle\\": "src"
         }
     }
 }
